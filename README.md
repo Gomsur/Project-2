@@ -1,108 +1,132 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Row of 3**
+## **Site Overview**
+I decided to make a game called three in a row or row of three, a classic board game where two players challenge eachother in a game of whoever gets three of their markers in a row first.
+However it can also end up being a draw game, where both players cant put more of their markers on the game board and would have to challenge eachother in another game.
 
-Welcome Gomsur,
+![responive-comp](/assets/images/responsive-comp.png)
+![responsive-tab](/assets/images/responsive-tab.png)
+![winningmsg](/assets/images/winningmsg.png)​
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Table of contents:
+1. [**Site Overview**](#site-overview)
+1. [**Planning stage**](#planning-stage)
+    * [***Target Audiences***](#target-audiences)
+    * [***User Stories***](#user-stories)
+    * [***Site Aims***](#site-aims)
+    * [***Color Scheme***](#color-scheme)
+    * [***Typography**](#typography)
+1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
+    * [***The rest of your features***](#features)
+1. [**Individual Page Content features**](#individual-page-content-features)
+    * [**Teachings Page Content**](#teachings-page-content)
+    * [**Community Page Content**](#community-page-content)
+1. [**Future-Enhancements**](#future-enhancements)
+1. [**Testing Phase**](#testing-phase)
+1. [**Deployment**](#deployment)
+1. [**Tech**](#tech)
+1. [**Credits**](#credits)
+    * [**Honorable mentions**](#honorable-mentions)
+    * [**General reference**](#general-reference)
+    * [**Content**](#content)
+​
+## **Planning stage**
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+### **Target Audiences:**
+* Users interested in retro gaming 
+* Users interested in a challenging one versus one game
+* Users who wants a simple quick game
 
-## Gitpod Reminders
+​
+### **User Stories:**
+* As a user, I want the game to be quick and easy to navigate
+* As a user, I want the game to be repeatable (play again option)
+* As a user, I want the retro feeling of a game
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+​
+### **Site Aims:**
+* Give the user a retro playable game
+* 1 versus 1 game type
+* Repeatable game type
 
-`python3 -m http.server`
+​
+### **Color Scheme:**
+​
+When hovering your marker, both on 'X' and 'O' I made the hovering indication green (rgb(1, 121, 67)
+When you set your marker, both with 'X' and 'O' I decided to go with a classic (black, #030100;) indication to get an easy classic touch.
+The winning message button I wanted to have a solid white (white) background, to make it easy for the end user to navigate.
+The text of the winning player I wanted to be the same color as the game itself, so here I chose (rgb(1, 121, 67);) aswell.
+For hovering I went with the same as mentioned above, to get the same red thread throught he project (rgb(1, 121, 67);)
 
-A blue button should appear to click: _Make Public_,
+* rgb(1, 121, 67);
+* (black, #030100;)
+* (white)
+​
 
-Another blue button should appear to click: _Open Browser_.
+## **Typography**
+* Throughout the page, these fonts were used:
+  * 'Courier New', Courier, monospace; - for the winning message
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+​
+## **Current Features Common to all pages**
+​
+#### **features**
+​
+## **Future-Enhancements**
+* A scoreboard would be possible to make, keeping track of both 'X' and 'O's scores, for users who wants to play three games for example.
+​
+* It would be possible to make the board even bigger, for the game to be playable even harder or just make the game play last longer.
+​
 
-A blue button should appear to click: _Make Public_,
+## **Testing Phase**
+* Responsiveness -  I checked the responsiveness with the inspect tool, seeing that it is responsive on all different phones, tablets and computers.
+​
+* Functionality - Everything regarding functionality works, i pressed everything and it works, the only thing not being as i expected it to be, is the hovering and color scheme on the tablet.
+​
+* Validators - I used jshint for java, jigsaw for css & for HTML I used validator.w3
 
-Another blue button should appear to click: _Open Browser_.
+![jshint](/assets/images/jshint.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+## **Bugs**
+* Issue - I was not able to place the different markers, making them stick to the board game.
+* Cause - I placed my java files to overrun
+* Resolution - Swapped lines on the java files so that the other one did not overrun the first one.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* Issue - When 'X' for example won, you could still place more markers on the board, not ending the game
+* Cause - The game ended but I needed something to make the player aware of it
+* Resolution - Added a winning message that caught the players attention.
+![problem](/assets/images/problem.png)
+​
+***
+## **Deployment**
+I deployed the page on GitHub pages via the following procedure: -
+​
+1. From the project's [repository](pageurl), go to the **Settings** tab.
+2. From the left-hand menu, select the **Pages** tab.
+3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
+4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
+​
+You  can find the live site via the following URL - [live webpage](https://yoururlhere)
+***
+​
+## **Tech**
+- Java
+- CSS
+- HTML
+- README
+​
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## **Credits**
+### **Honorable mentions**
+Alex Lee on youtube helped me out a lot with this youtube video. https://www.youtube.com/watch?v=gQb3dE-y1S4
+Stackoverflow
+geeksforgeeks
+​
 
-------
+### **Content:**
+I listened a lot to a guy on youtube called Alex Lee.
+https://www.youtube.com/watch?v=gQb3dE-y1S4
 
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Also used Geeksforgeeks a lot.
+https://www.geeksforgeeks.org/tic-tac-toe-game-in-java/
+​
