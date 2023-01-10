@@ -17,9 +17,6 @@ However it can also end up being a draw game, where both players cant put more o
     * [***Typography**](#typography)
 1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
     * [***The rest of your features***](#features)
-1. [**Individual Page Content features**](#individual-page-content-features)
-    * [**Teachings Page Content**](#teachings-page-content)
-    * [**Community Page Content**](#community-page-content)
 1. [**Future-Enhancements**](#future-enhancements)
 1. [**Testing Phase**](#testing-phase)
 1. [**Deployment**](#deployment)
@@ -102,12 +99,12 @@ For hovering I went with the same as mentioned above, to get the same red thread
 ## **Deployment**
 I deployed the page on GitHub pages via the following procedure: -
 ​
-1. From the project's [repository](pageurl), go to the **Settings** tab.
+1. From the project's [repository](https://github.com/Gomsur/Project-2), go to the **Settings** tab.
 2. From the left-hand menu, select the **Pages** tab.
 3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 ​
-You  can find the live site via the following URL - [live webpage](https://yoururlhere)
+You  can find the live site via the following URL - [live webpage](https://8000-gomsur-project2-6v2tg58eikx.ws-eu81.gitpod.io/)
 ***
 ​
 ## **Tech**
