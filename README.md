@@ -65,6 +65,7 @@ For hovering I went with the same as mentioned above, to get the same red thread
 ## **Typography**
 * Throughout the page, these fonts were used:
   * 'Courier New', Courier, monospace; - for the winning message
+  * Times new roman - For instructions
 
 ​
 ## **Current Features Common to all pages**
@@ -121,6 +122,8 @@ You  can find the live site via the following URL - [live webpage](https://youru
 Alex Lee on youtube helped me out a lot with this youtube video. https://www.youtube.com/watch?v=gQb3dE-y1S4
 Stackoverflow
 geeksforgeeks
+My fantastic mentor Antonio helped me with any questions I had during my project.
+Also took help from a friend in class named Fredrik.
 ​
 
 ### **Content:**
