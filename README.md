@@ -2,6 +2,8 @@
 ## **Site Overview**
 I decided to make a game called three in a row or row of three, a classic board game where two players challenge eachother in a game of whoever gets three of their markers in a row first.
 However it can also end up being a draw game, where both players cant put more of their markers on the game board and would have to challenge eachother in another game.
+There is also clear instructions mentioned under the instruction tab on how the game is played.
+Most important is to have fun!
 
 ![responive-all](/assets/images/Responsive.all.png)
 ![winningmsg](/assets/images/Winning%20screen.png)​
@@ -95,8 +97,8 @@ When the user is ready to play, they press the white "PLAY" button.
 
 ## **Bugs**
 * Issue - I was not able to place the different markers, making them stick to the board game.
-* Cause - I placed my java files to overrun
-* Resolution - Swapped lines on the java files so that the other one did not overrun the first one.
+* Cause - I placed my javascript files to overrun
+* Resolution - Swapped lines on the javascript files so that the other one did not overrun the first one.
 
 * Issue - When 'X' for example won, you could still place more markers on the board, not ending the game
 * Cause - The game ended but I needed something to make the player aware of it
