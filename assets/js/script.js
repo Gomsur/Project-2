@@ -30,15 +30,10 @@ playbtn.addEventListener('click', () => {
 });
 
 function startGame() {
-	isPlayer_O_Turn = false;
-	cellElements.forEach(cell => {
-		cell.classList.remove(PLAYER_X_CLASS);
-		cell.classList.remove(PLAYER_O_CLASS);
-		cell.removeEventListener('click', handleCellClick);
-		cell.addEventListener('click', handleCellClick, { once: true });
-	});
-	setBoardHoverClass();
+	cells.forEach((cell) => cell.addEventListener("click", playerTurn));
+	
 	winningMessageElement.classList.remove('show');
+	gameover = false;
 }
 
 function handleCellClick(e) {
