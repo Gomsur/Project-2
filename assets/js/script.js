@@ -82,3 +82,8 @@ function checkWin() {
 	for (let i = 0; i < WINNING_COMBINATIONS.length; i++) {
 		const [a, b, c] = WINNING_COMBINATIONS[i];
 		if (moves[a] !== "" && moves[a] === moves[b] && moves[a] === moves[c]) {
+			endGame(false);
+			gameover = true;
+			break;
+		}
+	}
