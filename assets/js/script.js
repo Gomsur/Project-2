@@ -96,3 +96,8 @@ function checkWin() {
 	}
 	swapTurns();
 }
+
+function restartGame() {
+	player = "x";
+	moves = ["", "", "", "", "", "", "", "", ""];
+	gameover = false;
