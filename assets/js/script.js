@@ -11,6 +11,10 @@ const WINNING_COMBINATIONS = [
 	[2, 4, 6]
 ];
 
+let moves = ["", "", "", "", "", "", "", "", ""];
+let gameover = false;
+let player = "x";
+
 const cells = Array.from(document.getElementsByClassName("cell"));
 const winningMessageElement = document.getElementById('winningMessage');
 const restartButton = document.getElementById('restartButton');
