@@ -56,6 +56,8 @@ For hovering I went with the same as mentioned above, to get the same red thread
 * rgb(1, 121, 67);
 * (black, #030100;)
 * (white)
+* #ff3300;
+* Blue
 ​
 
 ## **Typography**
