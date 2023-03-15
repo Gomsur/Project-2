@@ -47,11 +47,13 @@ However it can also end up being a draw game, where both players cant put more o
 ​
 ### **Color Scheme:**
 ​
-When hovering your marker, both on 'X' and 'O' I made the hovering indication green (rgb(1, 121, 67)
-When you set your marker, both with 'X' and 'O' I decided to go with a classic (black, #030100;) indication to get an easy classic touch.
+For "X" symbol I went with a red color
+For "O" symbol I went with a blue color
 The winning message button I wanted to have a solid white (white) background, to make it easy for the end user to navigate.
-The text of the winning player I wanted to be the same color as the game itself, so here I chose (rgb(1, 121, 67);) aswell.
-For hovering I went with the same as mentioned above, to get the same red thread throught he project (rgb(1, 121, 67);)
+The text of the winning player I went with green, so here I chose (rgb(1, 121, 67);).
+Instruction button is solid black but hovering is set to green.
+When clicking the instruction button, the text is green and the background turns black for the user to navigate easier.
+When the user is ready to play, they press the white "PLAY" button.
 
 * rgb(1, 121, 67);
 * (black, #030100;)
