@@ -101,3 +101,11 @@ function restartGame() {
 	player = "x";
 	moves = ["", "", "", "", "", "", "", "", ""];
 	gameover = false;
+	cells.forEach((cell) => {
+		cell.textContent = "";
+		cell.addEventListener("click", playerTurn);
+		cell.classList.remove("red");
+		cell.classList.remove("blue");
+	});
+	winningMessageElement.classList.remove('show');
+}
