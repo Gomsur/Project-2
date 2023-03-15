@@ -92,7 +92,6 @@ For hovering I went with the same as mentioned above, to get the same red thread
 * Issue - When 'X' for example won, you could still place more markers on the board, not ending the game
 * Cause - The game ended but I needed something to make the player aware of it
 * Resolution - Added a winning message that caught the players attention.
-![problem](/assets/images/problem.png)
 ​
 ***
 ## **Deployment**
