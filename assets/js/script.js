@@ -47,8 +47,6 @@ function playerTurn() {
 
 
 	checkWin();
-
-
 }
 
 function endGame(draw) {
