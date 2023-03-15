@@ -36,28 +36,29 @@ function startGame() {
 	gameover = false;
 }
 
-function handleCellClick(e) {
-	const cell = e.target;
-	const currentClass = isPlayer_O_Turn ? PLAYER_O_CLASS : PLAYER_X_CLASS;
-	placeMark(cell, currentClass);
-	if (checkWin(currentClass)) {
-		endGame(false);
-	} else if (isDraw()) {
-		endGame(true);
-	} else {
-		swapTurns();
-		setBoardHoverClass();
+function playerTurn() {
+	const cellIndex = parseInt(this.getAttribute("cellindex"));
+
+	if (moves[cellIndex] !== "" || gameover) {
+		return;
 	}
+	const current_cell = this;
+	placeMark(current_cell, cellIndex);
+
+
+	checkWin();
+
+
 }
 
-	function endGame(draw) {
-		if (draw) {
-			winningMessageTextElement.innerText = "It's a draw!";
-		} else {
-			winningMessageTextElement.innerText = `Player with ${isPlayer_O_Turn ? "O's" : "X's"} wins!`;
-		}
-		winningMessageElement.classList.add('show');
+function endGame(draw) {
+	if (draw) {
+		winningMessageTextElement.innerText = "It's a draw!";
+	} else {
+		winningMessageTextElement.innerText = `${player} wins!`;
 	}
+	winningMessageElement.classList.add('show');
+}
 
 	function isDraw() {
 		return [...cellElements].every(cell => {
