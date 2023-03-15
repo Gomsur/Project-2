@@ -3,7 +3,7 @@
 I decided to make a game called three in a row or row of three, a classic board game where two players challenge eachother in a game of whoever gets three of their markers in a row first.
 However it can also end up being a draw game, where both players cant put more of their markers on the game board and would have to challenge eachother in another game.
 There is also clear instructions mentioned under the instruction tab on how the game is played.
-Most important is to have fun!
+The most important is to have fun!
 
 ![responive-all](/assets/images/Responsive.all.png)
 ![winningmsg](/assets/images/Winning%20screen.png)​
