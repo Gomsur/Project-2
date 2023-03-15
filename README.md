@@ -37,6 +37,7 @@ However it can also end up being a draw game, where both players cant put more o
 * As a user, I want the game to be quick and easy to navigate
 * As a user, I want the game to be repeatable (play again option)
 * As a user, I want the retro feeling of a game
+* As a user, I want clear instructions on how to play the game
 
 ​
 ### **Site Aims:**
@@ -76,6 +77,8 @@ When the user is ready to play, they press the white "PLAY" button.
 * A scoreboard would be possible to make, keeping track of both 'X' and 'O's scores, for users who wants to play three games for example.
 ​
 * It would be possible to make the board even bigger, for the game to be playable even harder or just make the game play last longer.
+
+* Making hovering before placing your marker would be another option to consider.
 ​
 
 ## **Testing Phase**
