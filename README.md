@@ -82,13 +82,13 @@ When the user is ready to play, they press the white "PLAY" button.
 ​
 
 ## **Testing Phase**
-* Responsiveness -  I checked the responsiveness with the inspect tool, seeing that it is responsive on all different phones, tablets and computers.
+* Responsiveness -  I checked the responsiveness with the inspect tool, seeing that it is responsive on all different phones, tablets and computers, but also checked it with AmIResponsive which is mentioned below.
 ​
-* Functionality - Everything regarding functionality works, i pressed everything and it works, the only thing not being as i expected it to be, is the hovering and color scheme on the tablet.
+* Functionality - Everything regarding functionality works without bugs.
 ​
 * Validators - I used jshint for java, jigsaw for css & for HTML I used validator.w3
 
-![jshint](/assets/images/Jshint.2.png)
+![jshint](/assets/images/jshint.png)
 ![jigsaw](/assets/images/Jigsaw.png)
 ![W3C](/assets/images/W3C.html.png)
 
@@ -110,7 +110,7 @@ I deployed the page on GitHub pages via the following procedure: -
 3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 ​
-You  can find the live site via the following URL - [live webpage](https://8000-gomsur-project2-6v2tg58eikx.ws-eu81.gitpod.io/)
+You  can find the live site via the following URL - [live webpage](https://gomsur.github.io/Project-2/)
 ***
 ​
 ## **Tech**
@@ -122,13 +122,13 @@ You  can find the live site via the following URL - [live webpage](https://8000-
 
 ## **Credits**
 ### **Honorable mentions**
-Alex Lee on youtube helped me out a lot with this youtube video. https://www.youtube.com/watch?v=gQb3dE-y1S4
-Stackoverflow
-geeksforgeeks
-My fantastic mentor Antonio helped me with any questions I had during my project.
-Also took help from a friend in class named Fredrik.
-​Help from my real life friend who works with programming.
-Took inspiration from here https://www.youtube.com/watch?v=Y-GkMjUZsmM
+* Alex Lee on youtube helped me out a lot with this youtube video. https://www.youtube.com/watch?v=gQb3dE-y1S4
+* Stackoverflow for tips and tricks
+* geeksforgeeks for tips and tricks
+* My fantastic mentor Antonio helped me with any questions I had during my project.
+* Also took help from a friend in class named Fredrik.
+* Help from my real life friend who works with programming.
+* Took inspiration from here https://www.youtube.com/watch?v=Y-GkMjUZsmM
 
 ### **Content:**
 I listened a lot to a guy on youtube called Alex Lee.
@@ -139,4 +139,7 @@ https://www.geeksforgeeks.org/tic-tac-toe-game-in-java/
 
 Took some help from this, following him with my own adjustments.
 https://www.youtube.com/watch?v=Y-GkMjUZsmM
+
+Responsiveness was checked here
+https://ui.dev/amiresponsive
 ​
