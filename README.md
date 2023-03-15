@@ -106,7 +106,7 @@ You  can find the live site via the following URL - [live webpage](https://8000-
 ***
 ​
 ## **Tech**
-- Java
+- Javascript
 - CSS
 - HTML
 - README
