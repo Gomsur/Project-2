@@ -120,6 +120,7 @@ geeksforgeeks
 My fantastic mentor Antonio helped me with any questions I had during my project.
 Also took help from a friend in class named Fredrik.
 ​Help from my real life friend who works with programming.
+Took inspiration from here https://www.youtube.com/watch?v=Y-GkMjUZsmM
 
 ### **Content:**
 I listened a lot to a guy on youtube called Alex Lee.
