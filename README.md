@@ -82,7 +82,7 @@ For hovering I went with the same as mentioned above, to get the same red thread
 * Validators - I used jshint for java, jigsaw for css & for HTML I used validator.w3
 
 ![jshint](/assets/images/Jshint.2.png)
-
+![jigsaw](/assets/images/Jigsaw.png)
 
 ## **Bugs**
 * Issue - I was not able to place the different markers, making them stick to the board game.
