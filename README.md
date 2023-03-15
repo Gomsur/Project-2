@@ -3,9 +3,8 @@
 I decided to make a game called three in a row or row of three, a classic board game where two players challenge eachother in a game of whoever gets three of their markers in a row first.
 However it can also end up being a draw game, where both players cant put more of their markers on the game board and would have to challenge eachother in another game.
 
-![responive-comp](/assets/images/responsive-comp.png)
-![responsive-tab](/assets/images/responsive-tab.png)
-![winningmsg](/assets/images/winningmsg.png)​
+![responive-all](/assets/images/Responsive.all.png)
+![winningmsg](/assets/images/Winning%20screen.png)​
 
 ## Table of contents:
 1. [**Site Overview**](#site-overview)
