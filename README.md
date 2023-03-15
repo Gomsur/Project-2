@@ -5,6 +5,7 @@ However it can also end up being a draw game, where both players cant put more o
 
 ![responive-all](/assets/images/Responsive.all.png)
 ![winningmsg](/assets/images/Winning%20screen.png)​
+![instructions](/assets/images/Instructions.png)
 
 ## Table of contents:
 1. [**Site Overview**](#site-overview)
