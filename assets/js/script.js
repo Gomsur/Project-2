@@ -11,16 +11,23 @@ const WINNING_COMBINATIONS = [
 	[2, 4, 6]
 ];
 
-const cellElements = document.querySelectorAll('[data-cell]');
-const boardElement = document.getElementById('board');
+const cells = Array.from(document.getElementsByClassName("cell"));
 const winningMessageElement = document.getElementById('winningMessage');
 const restartButton = document.getElementById('restartButton');
 const winningMessageTextElement = document.getElementById('winningMessageText');
-let isPlayer_O_Turn = false;
+const instructionsElement = document.getElementById('instructions');
+const instructionsbtn = document.getElementById('instructions_btn');
+const playbtn = document.getElementById('playbtn');
 
 startGame();
 
-restartButton.addEventListener('click', startGame);
+restartButton.addEventListener('click', restartGame);
+instructionsbtn.addEventListener('click', () => {
+	instructionsElement.classList.add('show');
+});
+playbtn.addEventListener('click', () => {
+	instructionsElement.classList.remove('show');
+});
 
 function startGame() {
 	isPlayer_O_Turn = false;
