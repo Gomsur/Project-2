@@ -87,3 +87,19 @@ body {
 #instructions_btn:hover{
 	background-color:  rgb(1, 121, 67);
 }
+
+.instructions {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: var(--color-set);
+	justify-content: center;
+	align-items: center;
+	color: rgb(1, 121, 67);
+	font-size: 1rem;
+	font-family: 'Courier New', Courier, monospace;
+	flex-direction: column;
+}
