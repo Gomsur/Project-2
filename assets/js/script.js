@@ -1,6 +1,4 @@
-const PLAYER_X_CLASS = 'x';
-const PLAYER_O_CLASS = 'circle';
-const WINNING_COMBINATIONS = [
+var WINNING_COMBINATIONS = [
 	[0, 1, 2],
 	[3, 4, 5],
 	[6, 7, 8],
@@ -11,56 +9,63 @@ const WINNING_COMBINATIONS = [
 	[2, 4, 6]
 ];
 
-let moves = ["", "", "", "", "", "", "", "", ""];
-let gameover = false;
-let player = "x";
 
-const cells = Array.from(document.getElementsByClassName("cell"));
-const winningMessageElement = document.getElementById('winningMessage');
-const restartButton = document.getElementById('restartButton');
-const winningMessageTextElement = document.getElementById('winningMessageText');
-const instructionsElement = document.getElementById('instructions');
-const instructionsbtn = document.getElementById('instructions_btn');
-const playbtn = document.getElementById('playbtn');
+var moves = ["", "", "", "", "", "", "", "", ""];
+var gameover = false;
+var player = "x";
+
+
+
+var cells = Array.from(document.getElementsByClassName("cell"));
+var winningMessageElement = document.getElementById('winningMessage');
+var restartButton = document.getElementById('restartButton');
+var winningMessageTextElement = document.getElementById('winningMessageText');
+var instructionsElement = document.getElementById('instructions');
+var instructionsbtn = document.getElementById('instructions_btn');
+var playbtn = document.getElementById('playbtn');
 
 startGame();
 
 restartButton.addEventListener('click', restartGame);
-instructionsbtn.addEventListener('click', () => {
+instructionsbtn.addEventListener('click', function() {
 	instructionsElement.classList.add('show');
 });
-playbtn.addEventListener('click', () => {
+playbtn.addEventListener('click', function() {
 	instructionsElement.classList.remove('show');
 });
 
 function startGame() {
-	cells.forEach((cell) => cell.addEventListener("click", playerTurn));
+	cells.forEach(function (cell){ cell.addEventListener("click", playerTurn);});
 	
 	winningMessageElement.classList.remove('show');
 	gameover = false;
 }
 
 function playerTurn() {
-	const cellIndex = parseInt(this.getAttribute("cellindex"));
+	var cellIndex = parseInt(this.getAttribute("data-cell"));
 
 	if (moves[cellIndex] !== "" || gameover) {
 		return;
 	}
-	const current_cell = this;
+	var current_cell = this;
 	placeMark(current_cell, cellIndex);
 
 
 	checkWin();
+
+
 }
 
 function endGame(draw) {
 	if (draw) {
 		winningMessageTextElement.innerText = "It's a draw!";
 	} else {
-		winningMessageTextElement.innerText = `${player} wins!`;
+		winningMessageTextElement.innerText = player +'wins!';
 	}
 	winningMessageElement.classList.add('show');
 }
+
+
 
 function placeMark(cell, cell_index) {
 	moves[cell_index] = player;
@@ -81,16 +86,20 @@ function swapTurns() {
 }
 
 function checkWin() {
-	for (let i = 0; i < WINNING_COMBINATIONS.length; i++) {
-		const [a, b, c] = WINNING_COMBINATIONS[i];
+	for (var i = 0; i < WINNING_COMBINATIONS.length; i++) {
+		
+		var a = WINNING_COMBINATIONS[i][0];
+var b = WINNING_COMBINATIONS[i][1];
+var c = WINNING_COMBINATIONS[i][2];
 		if (moves[a] !== "" && moves[a] === moves[b] && moves[a] === moves[c]) {
 			endGame(false);
 			gameover = true;
 			break;
 		}
 	}
+
 	if (moves.indexOf("") === -1) {
-		cells.forEach((cell) => cell.removeEventListener("click", playerTurn));
+		cells.forEach(function(cell) { cell.removeEventListener("click", playerTurn);});
 
 		endGame(true);
 		gameover = true;
@@ -103,7 +112,8 @@ function restartGame() {
 	player = "x";
 	moves = ["", "", "", "", "", "", "", "", ""];
 	gameover = false;
-	cells.forEach((cell) => {
+
+	cells.forEach(function(cell){
 		cell.textContent = "";
 		cell.addEventListener("click", playerTurn);
 		cell.classList.remove("red");
