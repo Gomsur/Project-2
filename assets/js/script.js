@@ -77,3 +77,8 @@ function swapTurns() {
 		player = player === "x" ? "o" : "x";
 	}
 }
+
+function checkWin() {
+	for (let i = 0; i < WINNING_COMBINATIONS.length; i++) {
+		const [a, b, c] = WINNING_COMBINATIONS[i];
+		if (moves[a] !== "" && moves[a] === moves[b] && moves[a] === moves[c]) {
