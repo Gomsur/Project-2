@@ -50,13 +50,13 @@ body {
 	flex-direction: column;
 }
 
-/* for cross (set) */
-.cell:not(.circle).x {
-	background: linear-gradient(to top right, transparent calc(50% - var(--l) / 2), var(--color-set) calc(50% - var(--l) / 2) calc(50% + var(--l) / 2), transparent calc(50% + var(--l) / 2)),
-				linear-gradient(to bottom right, transparent calc(50% - var(--l) / 2), var(--color-set) calc(50% - var(--l) / 2) calc(50% + var(--l) / 2), transparent calc(50% + var(--l) / 2));
-	background-size: 80% 80%;
-	background-repeat: no-repeat;
-	background-position: center;
+.winning-message button {
+	border-radius: 10px;
+	font-size: 3rem;
+	background-color: white;
+	border: 1px solid var(--color-set);
+	padding: .25em .5em;
+	cursor: pointer;
 }
 
 /* for circle */
