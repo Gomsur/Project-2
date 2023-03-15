@@ -128,4 +128,7 @@ https://www.youtube.com/watch?v=gQb3dE-y1S4
 
 Also used Geeksforgeeks a lot.
 https://www.geeksforgeeks.org/tic-tac-toe-game-in-java/
+
+Took some help from this, following him with my own adjustments.
+https://www.youtube.com/watch?v=Y-GkMjUZsmM
 ​
