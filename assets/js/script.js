@@ -87,3 +87,12 @@ function checkWin() {
 			break;
 		}
 	}
+	if (moves.indexOf("") === -1) {
+		cells.forEach((cell) => cell.removeEventListener("click", playerTurn));
+
+		endGame(true);
+		gameover = true;
+		return;
+	}
+	swapTurns();
+}
