@@ -65,9 +65,14 @@ body {
 	border-color: rgb(1, 121, 67);
 }
 
-/* for circle (set) */
-.cell:not(.x).circle {
-	background: radial-gradient(var(--color-set) 60%, transparent 60%);
+.winning-message.show {
+	display: flex;
+}
+.red{
+	color: #ff3300;
+}
+.blue{
+	color: blue;
 }
 
 .winning-message {
