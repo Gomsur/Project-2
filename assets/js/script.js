@@ -71,3 +71,9 @@ function placeMark(cell, cell_index) {
 	}
 
 }
+
+function swapTurns() {
+	if (!gameover) {
+		player = player === "x" ? "o" : "x";
+	}
+}
