@@ -83,6 +83,7 @@ For hovering I went with the same as mentioned above, to get the same red thread
 
 ![jshint](/assets/images/Jshint.2.png)
 ![jigsaw](/assets/images/Jigsaw.png)
+![W3C](/assets/images/W3C.html.png)
 
 ## **Bugs**
 * Issue - I was not able to place the different markers, making them stick to the board game.
